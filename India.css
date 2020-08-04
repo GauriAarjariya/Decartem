@@ -1,0 +1,33 @@
+body {
+    background: black;
+}
+h1 {
+    color: red;
+}
+p {
+    color: rgb(255, 0, 221);
+
+
+}
+li{
+    color:green;
+}
+*{
+    border: 3px solid red;
+}
+h1+p {
+    border: 4px lightgreen;
+
+    
+}
+a[href="en.wikipedia.org/wiki/Dhoni"]{
+    background-color: white;
+
+}
+ul:nth-type-of(2){
+    background: white;
+
+}
+ul:nth-type-of(1){
+    background: white;
+}

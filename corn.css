@@ -1,0 +1,28 @@
+body {
+    background: url(Havanese-Silk-Dog-Animal-Background.jpg);
+    background-size: cover;
+    background-position:center;
+    
+
+}
+#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 8px 4px 3px red;
+     text-shadow:  0px 8px 13px blue;
+                
+
+}
+h1, h3 {
+    color:white;
+}
+h1{
+    font-weight:700;
+    font-size:1cm;
+}
+hr {
+    width:400px;
+    border-top: 1px solid red;
+    border-bottom: ipx solid green;
+
+}

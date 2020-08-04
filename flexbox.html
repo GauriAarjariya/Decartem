@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Requiret meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-5">
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn."
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <title>Flexbox</title>
+
+
+    </head>
+    <body>
+        <!-- justify content(end,center,around,between) is use to move the item in the flexbox -->
+        <div class="container">
+            <h1 class="text-center display-4">Flexbox</h1>
+            <div class="border border-dark d-flex justify-content-start align-items-end" style="height: 200px">
+                <button class="btn btn-info btn-lg">Large</button>
+                <button class="btn btn-primary">SMALL</button>
+                <button class="btn btn-warning">small</button>
+            </div>
+            <div class="border border-dark d-flex flex-column-reverse justify-content-start align-items-end"  style="height: 200px">
+                <button class="btn btn-info btn-lg">Large</button>
+                <button class="btn btn-primary">SMALL</button>
+                <button class="btn btn-warning">small</button>
+            </div>
+            <div class="border border-dark d-flex flex-column justify-content-start align-items-start"   style="height: 200px">
+                <button class="btn btn-info btn-lg">Large</button>
+                <button class="btn btn-primary">SMALL</button>
+                <button class="btn btn-warning">small</button>
+            </div>
+            <div class="border border-dark d-flex flex-column-reverse justify-content-end  align-items-center"   style="height: 200px">
+                <button class="btn btn-info btn-lg">Large</button>
+                <button class="btn btn-primary">SMALL</button>
+                <button class="btn btn-warning">small</button>
+            </div>
+            <h1 class="display-4 text-center">EXAMPLE TIME</h1>
+            <div class=" d-flex flex-column flex-md-row justify-content-between">
+                <button class="btn btn-dark btn-lg">Link 1</button>
+                <button class="btn btn-dark btn-lg">Link 2</button>
+                <button class="btn btn-dark btn-lg">Link 3</button>
+                <button class="btn btn-dark btn-lg">Link 4</button>
+                <button class="btn btn-dark btn-lg">Link 5</button>
+                <button class="btn btn-dark btn-lg">Link 6</button>
+            </div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proper.js"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0"
+        crossorigin="anonymous"></script>
+        
+          
+        
+
+    </body>
+</html>
